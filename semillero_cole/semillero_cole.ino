@@ -44,7 +44,7 @@ derecha_360 ();
 izquierda_360 ();
     break;
     
-case 'e':
+case 'e': // Este va a servir ara giros 360
 derecha ();
     break;
     
