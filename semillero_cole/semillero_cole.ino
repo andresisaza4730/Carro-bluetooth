@@ -2,9 +2,9 @@
 # include <SoftwareSerial.h>
 
 AF_DCMotor motor1(1);
-AF_DCMotor motor2(2);
+//AF_DCMotor motor2(2);
 AF_DCMotor motor3(3);
-AF_DCMotor motor4(4);
+//AF_DCMotor motor4(4);
 
 SoftwareSerial serial(9,10); //rx tx
 
@@ -99,7 +99,7 @@ motor4.run (FORWARD);
 }
 
 
-void derecha () // letra e 
+/*void derecha () // letra e 
 {
   
 motor1.run (FORWARD); 
@@ -127,4 +127,4 @@ motor2.run (RELEASE);
 motor3.run (RELEASE); 
 motor4.run (RELEASE); 
 
-}
+}*/
